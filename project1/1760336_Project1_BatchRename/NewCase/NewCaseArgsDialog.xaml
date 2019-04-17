@@ -1,0 +1,18 @@
+﻿<Window x:Class="_1760336_Project1_BatchRename.NewCase.NewCaseArgsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1760336_Project1_BatchRename.NewCase"
+        mc:Ignorable="d"
+        Title="New Case Setting" Height="237.304" Width="372.826" ResizeMode="NoResize">
+    <Canvas>
+        <TextBlock TextWrapping="Wrap" FontSize="13" Width="364" Canvas.Left="10" Canvas.Top="10" > This function is used to set the new case for a file / folder name. Select one of the following options:</TextBlock>
+        <RadioButton Name="template1RadioButton" Canvas.Left="21" Canvas.Top="61" Content="Set all character to UPPERCASE"></RadioButton>
+        <RadioButton Name="template2RadioButton" Canvas.Left="21" Canvas.Top="82" RenderTransformOrigin="0.633,2.5" Content="Set all character to lowercase"></RadioButton>
+        <RadioButton Name="template3RadioButton" Canvas.Left="21" Canvas.Top="103" RenderTransformOrigin="0.633,2.5" Content="Set the first letter to be Uppercase"></RadioButton>
+        <RadioButton Name="template0RadioButton" Canvas.Left="21" Canvas.Top="124" RenderTransformOrigin="0.633,2.5" Content="Do not change anything"></RadioButton>
+        <TextBlock Background="#FFEDEDED" Canvas.Top="153" Foreground="#FFF8F8F8" Width="367" Height="55" />
+        <Button Name="saveButton" Content="Save" Height="24" Width="71" Canvas.Left="274" Canvas.Top="164" Click="SaveButton_Click"></Button>
+    </Canvas>
+</Window>

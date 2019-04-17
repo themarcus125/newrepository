@@ -1,0 +1,20 @@
+﻿Batch Rename v1.0
+
+
+winexe
+C#
+.cs
+\\Mac\Google Drive\Studying\Windows Programming\Assignments\project1\1760336_Project1_BatchRename\1760336_Project1_BatchRename\obj\Debug\
+_1760336_Project1_BatchRename
+none
+false
+DEBUG;TRACE
+\\Mac\Google Drive\Studying\Windows Programming\Assignments\project1\1760336_Project1_BatchRename\1760336_Project1_BatchRename\App.xaml
+6-294596836
+
+21-1338010877
+15701558327
+FullNameNormalize\FullNameNormalizeArgsDialog.xaml;MainWindow.xaml;Move\MoveArgsDialog.xaml;NewCase\NewCaseArgsDialog.xaml;Replace\ReplaceArgsDialog.xaml;UniqueName\UniqueNameArgsDialog.xaml;
+
+True
+
